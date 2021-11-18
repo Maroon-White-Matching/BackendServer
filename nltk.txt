@@ -1,0 +1,5 @@
+wordnet
+stopwords
+genesis
+punkt
+averaged_perceptron_tagger

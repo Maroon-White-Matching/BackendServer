@@ -1,0 +1,471 @@
+{
+    "scoring_weights": {
+        "cr": 0,
+        "cl": 0,
+        "ccr": 0
+    },
+    "group1": [
+        {
+            "name": "36aa6059-9f35-4356-a41a-f3e6a01b5924",
+            "person": "Kylan Lewis",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "1",
+                "1",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.3346441882538139",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "3d8380b8-19e0-468f-8f1f-673134297378",
+            "person": "Thien Nguyen",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "1",
+                "1",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.3783204681277703",
+            "cr": [
+                "1",
+                "0",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "ea10bf6a-bc0a-49cb-9004-306562f0e7d9",
+            "person": "Tahir Galves",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "1",
+                "1",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.35761543844123034",
+            "cr": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "3d0803fb-5709-439c-ae07-318273e5a026",
+            "person": "Kylan Lewis_1",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "1",
+                "1",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.3346441882538139",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "8f9c8ea6-606b-4a0a-961a-bf57c44693f3",
+            "person": "Thien Nguyen_1",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "1",
+                "1",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.3783204681277703",
+            "cr": [
+                "1",
+                "0",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "ef0f2276-9985-4190-b7b6-fdba329dbbc7",
+            "person": "Tahir Galves_1",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "1",
+                "1",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.35761543844123034",
+            "cr": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "8fd2f757-5938-44fc-a8d1-e5773640d016",
+            "person": "Kylan Lewis_2",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "1",
+                "1",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.3346441882538139",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "e83d8f3a-9b07-4bbe-bad0-e3c6b5547c1a",
+            "person": "Thien Nguyen_2",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "1",
+                "1",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.3783204681277703",
+            "cr": [
+                "1",
+                "0",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "31f0e4d3-0422-4dde-a70b-c5cc2e2d6b7f",
+            "person": "Tahir Galves_2",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "1",
+                "1",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.35761543844123034",
+            "cr": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "9f61fcee-5948-4613-8acb-e9d38a6dbfbb",
+            "person": "Kylan Lewis_3",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "1",
+                "1",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.3346441882538139",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        }
+    ],
+    "group2": [
+        {
+            "name": "a0dde399-9d64-441f-a34e-f2b54133e98d",
+            "person": "Terrence Hooper",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "1",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.35708478764034324",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "4e86a552-bcf9-403f-8deb-3777586bac39",
+            "person": "Nadia Fisher",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "1",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.39911362952329343",
+            "cr": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "0416bb37-e06a-4e09-9d70-1c51c0109ca9",
+            "person": "Valentina Osborne",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "1",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.366996284965035",
+            "cr": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "cdce1948-da4c-4398-afe8-1d2ed71b12de",
+            "person": "Marin Stark",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "1",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.3897502447276203",
+            "cr": [
+                "1",
+                "0",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "d352c024-ab72-4e13-a493-9249429b5e2b",
+            "person": "Jax Kane",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "1",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.31117000815276674",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "9d77b94c-e7a2-4524-953c-bf012ac76b24",
+            "person": "Valentin Bailey",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "1",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.33681562300748347",
+            "cr": [
+                "1",
+                "0",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "99ba2cbc-a433-47a4-a9fe-f5ea0b139935",
+            "person": "Johan Saunders",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "1",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.3705133432135935",
+            "cr": [
+                "1",
+                "0",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "57165f5e-a75c-4ab9-a319-9b32e67d1910",
+            "person": "Elizabeth Estrada",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "1",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.39919051255258153",
+            "cr": [
+                "1",
+                "1",
+                "0",
+                "0",
+                "1"
+            ]
+        },
+        {
+            "name": "34a60419-eb54-4ceb-9c72-25eeb964d260",
+            "person": "Elian Brown",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "1",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.35862724629171994",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "a6d9efcd-d4d4-4fa7-9c92-979f8689bed1",
+            "person": "Sarai Villarreal",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "2",
+                "4",
+                "1",
+                "1",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.37870610870610877",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "0"
+            ]
+        }
+    ]
+}

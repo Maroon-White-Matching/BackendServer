@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+flask-cors = "*"
+flask-bootstrap = "*"
+flask-jwt-extended = "*"
+gspread = "*"
+oauth2client = "*"
+pandas = "*"
+pyyaml = "*"
+random-word = "*"
+algorithmia = "*"
+nltk = "*"
+pysqlite3 = "*"
+snowballstemmer = "*"
+sklearn = "*"
+scikit-learn = "==0.22.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
