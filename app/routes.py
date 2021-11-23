@@ -2,6 +2,7 @@ import pandas as pd
 import gspread
 from app import app, db
 from app.models import Users, Result
+from wordcloud import WordCloud
 
 import sys
 sys.path.append('app/utils')
@@ -33,6 +34,28 @@ def pull_data():
     data = sheet.get_all_records()
     df = pd.DataFrame(data)
     return df
+
+def statistics():
+    data = pull_data()
+    data = apply_nlp(data)
+    data = big5(data)
+    
+    stats = pd.DataFrame() 
+
+    # Copying number of personality types
+    stats['EXT'] = data['EXT'].astype(int)
+    stats['NEU'] = data['NEU'].astype(int)
+    stats['AGR'] = data['AGR'].astype(int)
+    stats['CON'] = data['CON'].astype(int)
+    stats['OPN'] = data['OPN'].astype(int)
+    stats = stats.sum()
+
+    # Getting the number of unique Coaches and Mentors
+    stats['Coaches'] = data['Role:'].value_counts()['Coach']
+    stats['Fellows'] = data['Role:'].value_counts()['Fellow']
+
+    return stats
+
 
 def matching_algorithm(ccr,cl,cr): 
     data = pull_data()
@@ -159,12 +182,11 @@ def results():
 
     return results.to_json(), 200 
 
-@app.route("/save_responses", methods=["GET"])
+@app.route("/stats", methods=["GET"])
 @jwt_required()
 def display():
-    reader = pd.read_csv("app/lib/data/FormResponses.csv")
-    data = reader.to_json(orient="split")
-    return data, 200 
+    stats = statistics()
+    return stats.to_json(), 200 
 
 @app.route("/finalMatches",methods=['GET'])
 @jwt_required()
