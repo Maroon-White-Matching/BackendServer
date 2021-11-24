@@ -2,7 +2,6 @@ import pandas as pd
 import gspread
 from app import app, db
 from app.models import Users, Result
-from wordcloud import WordCloud
 
 import sys
 sys.path.append('app/utils')
@@ -73,6 +72,7 @@ def matching_algorithm(ccr,cl,cr):
     match_results = unhash(data,hashed_match_result)
 
     return match_results
+    
 
 @app.route("/")
 def home_view():
@@ -167,7 +167,7 @@ def retrieve():
     df.to_csv("app/lib/data/FormResponses.csv", index=False)
     return jsonify(data), 200 
 
-@app.route("/results", methods=["POST"])
+@app.route("/results", methods=["GET"])
 @jwt_required()
 def results():
     ccr = request.json.get("ccr", None)
@@ -180,7 +180,7 @@ def results():
         db.session.add(Result(id = index, coach = row.coach, fellow = row.fellow))
         db.session.commit()
 
-    return results.to_json(), 200 
+    return results.to_json(default_handler=str), 200 
 
 @app.route("/stats", methods=["GET"])
 @jwt_required()

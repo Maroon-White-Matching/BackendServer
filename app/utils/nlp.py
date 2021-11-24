@@ -126,11 +126,9 @@ def big5(data):
 
 def KNN_dictionary(data):
     final = data
-    final = final.applymap(lambda s:preprocess(s))
-    # text = final['words']
-    text = final['Briefly describe a leader or person you admire and why.'].map(str) + " " + final['What do you hope to gain/learn as a result of the fellow-coach relationship?'].map(str) + " " + final['A few words to describe myself are:'].map(str) + " " + final['What values (3-5) influence your leadership style the most?'].map(str) 
+    text = final[['Briefly describe a leader or person you admire and why.', 'What do you hope to gain/learn as a result of the fellow-coach relationship?']].applymap(lambda s:preprocess(s))
+    text = text['Briefly describe a leader or person you admire and why.'].map(str) + " " + text['What do you hope to gain/learn as a result of the fellow-coach relationship?'].map(str) 
     word_kw = text.to_frame()
-    # print(word_kw[0])
     UID_kw = final['UID'] 
     keywords_hash= dict()
     for i in range(len(word_kw)):
@@ -155,11 +153,9 @@ def calculate_keyword(keywords_hash, UID_kw, final):
     for i in range(len(keywords_hash)):
         origin_hash[UID_kw[i]] = 1-x.document_similarity(centroid, keywords_hash[UID_kw[i]]) #distance from all participants and origin
    
-    # print("DONE!!")
-    # print(origin_hash[UID_kw[0]])
-    final["distance"] = ''
+    final["distance"] = ""
     for i in range(len(origin_hash)):
-        final["distance"][i] = origin_hash[UID_kw[i]]
+        final["distance"][i] = origin_hash[UID_kw[i]].astype(float)
     return final
 
 class KNN_NLC_Classifer():

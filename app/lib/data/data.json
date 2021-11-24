@@ -1,142 +1,124 @@
 {
     "scoring_weights": {
-        "cr": 0,
-        "cl": 0,
-        "ccr": 0
+        "cr": 2,
+        "cl": 2,
+        "ccr": 2
     },
     "group1": [
         {
-            "name": "36aa6059-9f35-4356-a41a-f3e6a01b5924",
-            "person": "Kylan Lewis",
+            "name": "62d61e6a-ded1-4a93-a9f5-059d9ee3cbb2",
+            "person": "Susan Nicole Kahn",
             "role": "Coach",
             "ccr": [
                 "5",
+                "4",
+                "3",
+                "3",
                 "5",
                 "5",
-                "1",
-                "1",
                 "Most Important",
-                "Least Important",
-                "Moderately Important"
+                "Moderately Important",
+                "Least Important"
             ],
-            "cl": "0.3346441882538139",
-            "cr": [
-                "1",
-                "1",
-                "1",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "3d8380b8-19e0-468f-8f1f-673134297378",
-            "person": "Thien Nguyen",
-            "role": "Coach",
-            "ccr": [
-                "5",
-                "5",
-                "5",
-                "1",
-                "1",
-                "Most Important",
-                "Least Important",
-                "Moderately Important"
-            ],
-            "cl": "0.3783204681277703",
+            "cl": "0.7846484323757051",
             "cr": [
                 "1",
                 "0",
-                "1",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "ea10bf6a-bc0a-49cb-9004-306562f0e7d9",
-            "person": "Tahir Galves",
-            "role": "Coach",
-            "ccr": [
-                "5",
-                "5",
-                "5",
-                "1",
-                "1",
-                "Most Important",
-                "Least Important",
-                "Moderately Important"
-            ],
-            "cl": "0.35761543844123034",
-            "cr": [
-                "1",
-                "1",
                 "0",
                 "1",
                 "1"
             ]
         },
         {
-            "name": "3d0803fb-5709-439c-ae07-318273e5a026",
-            "person": "Kylan Lewis_1",
+            "name": "a84fef93-64e4-4894-b9b1-454a6f3bf008",
+            "person": "Bridget Renae Duignan",
             "role": "Coach",
             "ccr": [
+                "4",
+                "3",
+                "4",
+                "3",
                 "5",
                 "5",
-                "5",
-                "1",
-                "1",
                 "Most Important",
-                "Least Important",
-                "Moderately Important"
+                "Moderately Important",
+                "Least Important"
             ],
-            "cl": "0.3346441882538139",
-            "cr": [
-                "1",
-                "1",
-                "1",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "8f9c8ea6-606b-4a0a-961a-bf57c44693f3",
-            "person": "Thien Nguyen_1",
-            "role": "Coach",
-            "ccr": [
-                "5",
-                "5",
-                "5",
-                "1",
-                "1",
-                "Most Important",
-                "Least Important",
-                "Moderately Important"
-            ],
-            "cl": "0.3783204681277703",
+            "cl": "0.5891853805916306",
             "cr": [
                 "1",
                 "0",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "dfac60f1-8a1d-47b3-8377-c1dea4682a5c",
+            "person": "Kelli Levey Reynolds",
+            "role": "Coach",
+            "ccr": [
+                "4",
+                "2",
+                "5",
+                "5",
+                "5",
+                "5",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.31881313131313127",
+            "cr": [
+                "1",
+                "1",
                 "1",
                 "1",
                 "1"
             ]
         },
         {
-            "name": "ef0f2276-9985-4190-b7b6-fdba329dbbc7",
-            "person": "Tahir Galves_1",
+            "name": "1f684de5-c036-477a-be9f-5a2284ee9c45",
+            "person": "Rebecca Lynne Thompson",
             "role": "Coach",
             "ccr": [
+                "4",
+                "5",
+                "3",
                 "5",
                 "5",
                 "5",
-                "1",
-                "1",
                 "Most Important",
-                "Least Important",
+                "Most Important",
                 "Moderately Important"
             ],
-            "cl": "0.35761543844123034",
+            "cl": "0.5559561965811965",
             "cr": [
                 "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "1f5fa134-f33d-4d66-8c60-c9dcb5d49b8e",
+            "person": "Jamyia Christine Barrett",
+            "role": "Coach",
+            "ccr": [
+                "4",
+                "4",
+                "5",
+                "5",
+                "4",
+                "4",
+                "Most Important",
+                "Most Important",
+                "Most Important"
+            ],
+            "cl": "0.4393315018315018",
+            "cr": [
+                "0",
                 "1",
                 "0",
                 "1",
@@ -144,66 +126,45 @@
             ]
         },
         {
-            "name": "8fd2f757-5938-44fc-a8d1-e5773640d016",
-            "person": "Kylan Lewis_2",
+            "name": "d262a137-4c7e-4818-a5d2-c2a89275ecb8",
+            "person": "Megan Diane Brown",
             "role": "Coach",
             "ccr": [
+                "4",
+                "4",
                 "5",
-                "5",
-                "5",
-                "1",
-                "1",
-                "Most Important",
+                "4",
+                "4",
+                "4",
+                "Moderately Important",
                 "Least Important",
-                "Moderately Important"
+                "Most Important"
             ],
-            "cl": "0.3346441882538139",
-            "cr": [
-                "1",
-                "1",
-                "1",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "e83d8f3a-9b07-4bbe-bad0-e3c6b5547c1a",
-            "person": "Thien Nguyen_2",
-            "role": "Coach",
-            "ccr": [
-                "5",
-                "5",
-                "5",
-                "1",
-                "1",
-                "Most Important",
-                "Least Important",
-                "Moderately Important"
-            ],
-            "cl": "0.3783204681277703",
+            "cl": "0.4735877684407097",
             "cr": [
                 "1",
                 "0",
-                "1",
-                "1",
+                "0",
+                "0",
                 "1"
             ]
         },
         {
-            "name": "31f0e4d3-0422-4dde-a70b-c5cc2e2d6b7f",
-            "person": "Tahir Galves_2",
+            "name": "cb030fc2-7f65-47a5-b6f0-0adad8d934c0",
+            "person": "Monteigne S. Long",
             "role": "Coach",
             "ccr": [
+                "3",
+                "2",
                 "5",
                 "5",
-                "5",
-                "1",
-                "1",
+                "4",
+                "4",
                 "Most Important",
-                "Least Important",
+                "Moderately Important",
                 "Moderately Important"
             ],
-            "cl": "0.35761543844123034",
+            "cl": "0.4718915343915344",
             "cr": [
                 "1",
                 "1",
@@ -213,20 +174,261 @@
             ]
         },
         {
-            "name": "9f61fcee-5948-4613-8acb-e9d38a6dbfbb",
-            "person": "Kylan Lewis_3",
+            "name": "695bf909-72aa-4cb0-9d6d-073c0f38d4ae",
+            "person": "Susan Nicole Kahn_1",
             "role": "Coach",
             "ccr": [
                 "5",
+                "4",
+                "3",
+                "3",
                 "5",
                 "5",
-                "1",
-                "1",
                 "Most Important",
-                "Least Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.7846484323757051",
+            "cr": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "22a31d81-9178-4329-ab27-34ec26e15d30",
+            "person": "Bridget Renae Duignan_1",
+            "role": "Coach",
+            "ccr": [
+                "4",
+                "3",
+                "4",
+                "3",
+                "5",
+                "5",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.5891853805916306",
+            "cr": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "3a463354-4031-4bdb-a836-29c5de20e82a",
+            "person": "Kelli Levey Reynolds_1",
+            "role": "Coach",
+            "ccr": [
+                "4",
+                "2",
+                "5",
+                "5",
+                "5",
+                "5",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.31881313131313127",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "1790a45e-3c2e-4098-b2f1-2f520a223227",
+            "person": "Rebecca Lynne Thompson_1",
+            "role": "Coach",
+            "ccr": [
+                "4",
+                "5",
+                "3",
+                "5",
+                "5",
+                "5",
+                "Most Important",
+                "Most Important",
                 "Moderately Important"
             ],
-            "cl": "0.3346441882538139",
+            "cl": "0.5559561965811965",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "a8b68929-0a11-4ec6-a83a-0b792ad03617",
+            "person": "Jamyia Christine Barrett_1",
+            "role": "Coach",
+            "ccr": [
+                "4",
+                "4",
+                "5",
+                "5",
+                "4",
+                "4",
+                "Most Important",
+                "Most Important",
+                "Most Important"
+            ],
+            "cl": "0.4393315018315018",
+            "cr": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "3a2f8003-2957-42ad-b134-b7331faf5f23",
+            "person": "Megan Diane Brown_1",
+            "role": "Coach",
+            "ccr": [
+                "4",
+                "4",
+                "5",
+                "4",
+                "4",
+                "4",
+                "Moderately Important",
+                "Least Important",
+                "Most Important"
+            ],
+            "cl": "0.4735877684407097",
+            "cr": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "1"
+            ]
+        },
+        {
+            "name": "801a8eed-520e-4752-ac21-42585ed70a30",
+            "person": "Monteigne S. Long_1",
+            "role": "Coach",
+            "ccr": [
+                "3",
+                "2",
+                "5",
+                "5",
+                "4",
+                "4",
+                "Most Important",
+                "Moderately Important",
+                "Moderately Important"
+            ],
+            "cl": "0.4718915343915344",
+            "cr": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "420d6090-dfcc-434b-b19e-281d85d20a42",
+            "person": "Susan Nicole Kahn_2",
+            "role": "Coach",
+            "ccr": [
+                "5",
+                "4",
+                "3",
+                "3",
+                "5",
+                "5",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.7846484323757051",
+            "cr": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "57943271-b1c7-4ea4-911b-4e2d140c8a08",
+            "person": "Bridget Renae Duignan_2",
+            "role": "Coach",
+            "ccr": [
+                "4",
+                "3",
+                "4",
+                "3",
+                "5",
+                "5",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.5891853805916306",
+            "cr": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "55a3a2e9-096a-4e4a-a5ba-e6b710bf5503",
+            "person": "Kelli Levey Reynolds_2",
+            "role": "Coach",
+            "ccr": [
+                "4",
+                "2",
+                "5",
+                "5",
+                "5",
+                "5",
+                "Most Important",
+                "Moderately Important",
+                "Least Important"
+            ],
+            "cl": "0.31881313131313127",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "cf1eb8db-a855-4e11-a5b5-8130970bd63d",
+            "person": "Rebecca Lynne Thompson_2",
+            "role": "Coach",
+            "ccr": [
+                "4",
+                "5",
+                "3",
+                "5",
+                "5",
+                "5",
+                "Most Important",
+                "Most Important",
+                "Moderately Important"
+            ],
+            "cl": "0.5559561965811965",
             "cr": [
                 "1",
                 "1",
@@ -238,181 +440,21 @@
     ],
     "group2": [
         {
-            "name": "a0dde399-9d64-441f-a34e-f2b54133e98d",
-            "person": "Terrence Hooper",
+            "name": "40fcdd2d-253c-4ceb-831d-b3dd30952f32",
+            "person": "Eddy Romero-Hernandez",
             "role": "Fellow",
             "ccr": [
                 "3",
-                "2",
-                "4",
-                "1",
-                "1",
-                "Most Important",
-                "Moderately Important",
-                "Least Important"
-            ],
-            "cl": "0.35708478764034324",
-            "cr": [
-                "1",
-                "1",
-                "1",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "4e86a552-bcf9-403f-8deb-3777586bac39",
-            "person": "Nadia Fisher",
-            "role": "Fellow",
-            "ccr": [
                 "3",
-                "2",
+                "5",
                 "4",
-                "1",
-                "1",
-                "Most Important",
-                "Moderately Important",
-                "Least Important"
-            ],
-            "cl": "0.39911362952329343",
-            "cr": [
-                "1",
-                "1",
-                "0",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "0416bb37-e06a-4e09-9d70-1c51c0109ca9",
-            "person": "Valentina Osborne",
-            "role": "Fellow",
-            "ccr": [
-                "3",
-                "2",
                 "4",
-                "1",
-                "1",
-                "Most Important",
-                "Moderately Important",
-                "Least Important"
-            ],
-            "cl": "0.366996284965035",
-            "cr": [
-                "1",
-                "1",
-                "0",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "cdce1948-da4c-4398-afe8-1d2ed71b12de",
-            "person": "Marin Stark",
-            "role": "Fellow",
-            "ccr": [
-                "3",
-                "2",
                 "4",
-                "1",
-                "1",
                 "Most Important",
-                "Moderately Important",
-                "Least Important"
-            ],
-            "cl": "0.3897502447276203",
-            "cr": [
-                "1",
-                "0",
-                "1",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "d352c024-ab72-4e13-a493-9249429b5e2b",
-            "person": "Jax Kane",
-            "role": "Fellow",
-            "ccr": [
-                "3",
-                "2",
-                "4",
-                "1",
-                "1",
                 "Most Important",
-                "Moderately Important",
-                "Least Important"
+                "Most Important"
             ],
-            "cl": "0.31117000815276674",
-            "cr": [
-                "1",
-                "1",
-                "1",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "9d77b94c-e7a2-4524-953c-bf012ac76b24",
-            "person": "Valentin Bailey",
-            "role": "Fellow",
-            "ccr": [
-                "3",
-                "2",
-                "4",
-                "1",
-                "1",
-                "Most Important",
-                "Moderately Important",
-                "Least Important"
-            ],
-            "cl": "0.33681562300748347",
-            "cr": [
-                "1",
-                "0",
-                "1",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "99ba2cbc-a433-47a4-a9fe-f5ea0b139935",
-            "person": "Johan Saunders",
-            "role": "Fellow",
-            "ccr": [
-                "3",
-                "2",
-                "4",
-                "1",
-                "1",
-                "Most Important",
-                "Moderately Important",
-                "Least Important"
-            ],
-            "cl": "0.3705133432135935",
-            "cr": [
-                "1",
-                "0",
-                "1",
-                "1",
-                "1"
-            ]
-        },
-        {
-            "name": "57165f5e-a75c-4ab9-a319-9b32e67d1910",
-            "person": "Elizabeth Estrada",
-            "role": "Fellow",
-            "ccr": [
-                "3",
-                "2",
-                "4",
-                "1",
-                "1",
-                "Most Important",
-                "Moderately Important",
-                "Least Important"
-            ],
-            "cl": "0.39919051255258153",
+            "cl": "0.4329117063492064",
             "cr": [
                 "1",
                 "1",
@@ -422,20 +464,69 @@
             ]
         },
         {
-            "name": "34a60419-eb54-4ceb-9c72-25eeb964d260",
-            "person": "Elian Brown",
+            "name": "f9b85e52-d2d8-4a66-96b9-6ef4dda39b30",
+            "person": "Myongsun Karenne Kim",
             "role": "Fellow",
             "ccr": [
                 "3",
-                "2",
                 "4",
-                "1",
-                "1",
+                "4",
+                "4",
+                "4",
+                "4",
                 "Most Important",
                 "Moderately Important",
                 "Least Important"
             ],
-            "cl": "0.35862724629171994",
+            "cl": "0.3603502558048013",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "0",
+                "1"
+            ]
+        },
+        {
+            "name": "19bea49c-90d1-4901-8b68-d4e98cbd98f1",
+            "person": "Tarni Manodya Hewage",
+            "role": "Fellow",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "4",
+                "5",
+                "5",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.5714896214896215",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "0",
+                "1"
+            ]
+        },
+        {
+            "name": "888b218c-5c77-463a-872d-d7e9f79cff99",
+            "person": "Aidan Cole Slagter",
+            "role": "Fellow",
+            "ccr": [
+                "4",
+                "5",
+                "3",
+                "4",
+                "4",
+                "4",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.49316578483245155",
             "cr": [
                 "1",
                 "1",
@@ -445,26 +536,339 @@
             ]
         },
         {
-            "name": "a6d9efcd-d4d4-4fa7-9c92-979f8689bed1",
-            "person": "Sarai Villarreal",
+            "name": "86341e9c-d53a-468d-a1ee-c95855ce7426",
+            "person": "Reagan Marie Baker",
             "role": "Fellow",
             "ccr": [
-                "3",
-                "2",
                 "4",
-                "1",
-                "1",
-                "Most Important",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
                 "Moderately Important",
-                "Least Important"
+                "Moderately Important",
+                "Most Important"
             ],
-            "cl": "0.37870610870610877",
+            "cl": "0.38095238095238093",
             "cr": [
-                "1",
-                "1",
-                "1",
+                "0",
+                "0",
+                "0",
                 "1",
                 "0"
+            ]
+        },
+        {
+            "name": "f48a12bd-4bbe-40ce-b705-e3250dfd180c",
+            "person": "Emma Leigh Heintz",
+            "role": "Fellow",
+            "ccr": [
+                "4",
+                "4",
+                "5",
+                "3",
+                "5",
+                "5",
+                "Most Important",
+                "Moderately Important",
+                "Most Important"
+            ],
+            "cl": "0.6715330387205387",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "name": "dec3c3b2-5f0e-4061-aea7-7a403b248d31",
+            "person": "Barbara Rose Gano",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "3",
+                "4",
+                "5",
+                "4",
+                "4",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.3537202380952381",
+            "cr": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "69b14883-9b3a-488b-8453-e0433c587e61",
+            "person": "Oscar Francisco Cruz",
+            "role": "Fellow",
+            "ccr": [
+                "4",
+                "4",
+                "4",
+                "5",
+                "5",
+                "5",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.8278151412079984",
+            "cr": [
+                "0",
+                "1",
+                "1",
+                "0",
+                "1"
+            ]
+        },
+        {
+            "name": "ec35164d-ee14-4c84-9660-5a97d3a835d5",
+            "person": "Erica Ann Schmueckle",
+            "role": "Fellow",
+            "ccr": [
+                "2",
+                "3",
+                "3",
+                "4",
+                "4",
+                "4",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.4457837301587302",
+            "cr": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+            ]
+        },
+        {
+            "name": "5e522771-b8fb-4df1-b228-b86cd555c59a",
+            "person": "Kaylee Brianna Garcia",
+            "role": "Fellow",
+            "ccr": [
+                "3",
+                "5",
+                "4",
+                "5",
+                "5",
+                "5",
+                "Most Important",
+                "Moderately Important",
+                "Most Important"
+            ],
+            "cl": "0.5468820861678004",
+            "cr": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "71ed6f0d-acb2-414a-92a6-530f94996884",
+            "person": "Elaine Hongan Ta",
+            "role": "Fellow",
+            "ccr": [
+                "4",
+                "2",
+                "4",
+                "4",
+                "3",
+                "3",
+                "Most Important",
+                "Most Important",
+                "Most Important"
+            ],
+            "cl": "0.43028499278499277",
+            "cr": [
+                "0",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "761c969b-d9d4-437a-a97a-2166253b62da",
+            "person": "Zainab Jamal",
+            "role": "Fellow",
+            "ccr": [
+                "2",
+                "3",
+                "4",
+                "4",
+                "5",
+                "5",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.5036916786916787",
+            "cr": [
+                "0",
+                "1",
+                "1",
+                "0",
+                "1"
+            ]
+        },
+        {
+            "name": "f76f50c0-0329-4ce7-b328-6adf2483d816",
+            "person": "Macy Alesandra Cruz ",
+            "role": "Fellow",
+            "ccr": [
+                "4",
+                "4",
+                "5",
+                "4",
+                "5",
+                "5",
+                "Most Important",
+                "Moderately Important",
+                "Most Important"
+            ],
+            "cl": "0.5732738095238095",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "0",
+                "1"
+            ]
+        },
+        {
+            "name": "4086e442-58e2-4aa5-8df9-532a4f9f142f",
+            "person": "Kylie Nicole McDaniel",
+            "role": "Fellow",
+            "ccr": [
+                "5",
+                "5",
+                "4",
+                "4",
+                "5",
+                "5",
+                "Moderately Important",
+                "Most Important",
+                "Least Important"
+            ],
+            "cl": "0.36984126984126986",
+            "cr": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "9a96eb81-479b-4eea-8e3a-180fe0c88a97",
+            "person": "Priya Jain",
+            "role": "Fellow",
+            "ccr": [
+                "4",
+                "4",
+                "5",
+                "5",
+                "5",
+                "5",
+                "Most Important",
+                "Least Important",
+                "Moderately Important"
+            ],
+            "cl": "0.3470238095238096",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "8afbdcbb-0af0-4d3b-b9aa-4f86f38c1565",
+            "person": "Emily Paige Havens",
+            "role": "Fellow",
+            "ccr": [
+                "5",
+                "5",
+                "3",
+                "5",
+                "5",
+                "5",
+                "Moderately Important",
+                "Most Important",
+                "Least Important"
+            ],
+            "cl": "0.5421464646464647",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "name": "c827adf5-3549-41ce-acf9-b9a312c65427",
+            "person": "Yulissa Valeria Rodriguez",
+            "role": "Fellow",
+            "ccr": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "5",
+                "5",
+                "Most Important",
+                "Most Important",
+                "Most Important"
+            ],
+            "cl": "0.43955492424242426",
+            "cr": [
+                "1",
+                "1",
+                "1",
+                "0",
+                "1"
+            ]
+        },
+        {
+            "name": "7614f9c7-2b53-4534-906e-b1b537b78c13",
+            "person": "Jose Alfredo Solis ",
+            "role": "Fellow",
+            "ccr": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "4",
+                "4",
+                "Moderately Important",
+                "Least Important",
+                "Most Important"
+            ],
+            "cl": "0.45204826038159374",
+            "cr": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "1"
             ]
         }
     ]
