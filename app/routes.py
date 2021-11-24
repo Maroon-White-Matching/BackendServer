@@ -167,7 +167,7 @@ def retrieve():
     df.to_csv("app/lib/data/FormResponses.csv", index=False)
     return jsonify(data), 200 
 
-@app.route("/results", methods=["GET"])
+@app.route("/results", methods=["POST"])
 @jwt_required()
 def results():
     ccr = request.json.get("ccr", None)
