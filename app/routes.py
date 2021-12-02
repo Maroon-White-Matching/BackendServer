@@ -29,7 +29,7 @@ def pull_data():
     scope = ["https://www.googleapis.com/auth/spreadsheets","https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
     creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
     client = gspread.authorize(creds)
-    sheet = client.open("Copy Fellow-Coach Matching Form Responses").sheet1
+    sheet = client.open("Copy of Fellow-Coach Matching Form Responses").sheet1
     data = sheet.get_all_records()
     df = pd.DataFrame(data)
     return df
