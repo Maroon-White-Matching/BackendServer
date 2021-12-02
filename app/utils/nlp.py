@@ -67,20 +67,39 @@ def padding(data):
 
     diff = math.floor(num_fellow/num_coach)
     rem = num_fellow%num_coach
+
+    c_diff = math.floor(num_coach/num_fellow)
+    c_rem = num_coach%num_fellow
     
-    coach = pd.concat([coach]*diff, ignore_index=True)
     
-    if(rem>=1):
-        last = coach.iloc[:rem]
-        coach = coach.append([last], ignore_index=True)
-    data = pd.concat([coach, fellow], ignore_index= "true")
-    data['UID'] = ''
-    uid = []
-    for i in range(len(data['UID'])):
-        x=uuid.uuid4()
-        uid.append(x)
-    data['UID']= pd.DataFrame(uid, columns=['UID'])
-    
+    if(num_fellow > num_coach):
+        coach = pd.concat([coach]*diff, ignore_index=True)
+        
+        if(rem>=1):
+            last = coach.iloc[:rem]
+            coach = coach.append([last], ignore_index=True)
+        data = pd.concat([coach, fellow], ignore_index= "true")
+        data['UID'] = ''
+        uid = []
+        for i in range(len(data['UID'])):
+            x=uuid.uuid4()
+            uid.append(x)
+        data['UID']= pd.DataFrame(uid, columns=['UID'])
+
+    elif(num_coach > num_fellow):  
+        fellow = pd.concat([fellow]*c_diff, ignore_index=True)
+
+        if(c_rem>=1):
+            last = fellow.iloc[:c_rem]
+            fellow = fellow.append([last], ignore_index=True)
+        data = pd.concat([coach, fellow], ignore_index= "true")
+        data['UID'] = ''
+        uid = []
+        for i in range(len(data['UID'])):
+            x=uuid.uuid4()
+            uid.append(x)
+        data['UID']= pd.DataFrame(uid, columns=['UID'])
+        
     return data
 
 def df_column_uniquify(df):
